@@ -37,4 +37,4 @@ if prompt:
     with st.chat_message("assistant"):
         st.markdown(response.content)
 
-        st.session_state.messages.append(AIMessage(response.content))git 
+        st.session_state.messages.append(AIMessage(response.content))
